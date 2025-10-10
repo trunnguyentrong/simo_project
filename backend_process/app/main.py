@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from .routes import upload_router, process_router, health_router
+from .routes import process_router
 from .services import mongodb_service
 from .config import settings
 
@@ -36,8 +36,7 @@ app.add_middleware(
 )
 
 # Include routers
-app.include_router(health_router)
-app.include_router(upload_router)
+# app.include_router(health_router)
 app.include_router(process_router)
 
 

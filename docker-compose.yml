@@ -1,49 +1,57 @@
 services:
-  # MongoDB
-  # mongodb:
-  #   image: mongo:7
-  #   container_name: vibe_mongodb
-  #   environment:
-  #     MONGO_INITDB_ROOT_USERNAME: admin
-  #     MONGO_INITDB_ROOT_PASSWORD: password
-  #   ports:
-  #     - "27017:27017"
-  #   volumes:
-  #     - mongodb_data:/data/db
-  #   networks:
-  #     - app-network
-
-  # MinIO
-  # minio:
-  #   image: minio/minio:latest
-  #   container_name: vibe_minio
-  #   command: server /data --console-address ":9001"
-  #   environment:
-  #     MINIO_ROOT_USER: minioadmin
-  #     MINIO_ROOT_PASSWORD: minioadmin
-  #   ports:
-  #     - "9000:9000"
-  #     - "9001:9001"
-  #   volumes:
-  #     - minio_data:/data
-  #   networks:
-  #     - app-network
-  #   healthcheck:
-  #     test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
-  #     interval: 30s
-  #     timeout: 20s
-  #     retries: 3
-
   # Backend Service
-  backend:
+  # backend:
+  #   build:
+  #     context: ./backend
+  #     dockerfile: Dockerfile
+  #   container_name: vibe_backend
+  #   extra_hosts:
+  #     - "host.docker.internal:host-gateway"
+  #   ports:
+  #     - "8001:8001"
+  #   environment:
+  #     MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
+  #     MINIO_ENDPOINT: host.docker.internal:9000
+  #     MINIO_ACCESS_KEY: minioadmin
+  #     MINIO_SECRET_KEY: minioadmin
+  #     EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
+  #     EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
+  #   networks:
+  #     - app-network
+  #   volumes:
+  #     - ./backend:/app
+
+
+  backend_upload:
     build:
-      context: ./backend
+      context: ./backend_upload
       dockerfile: Dockerfile
-    container_name: vibe_backend
+    container_name: backend_upload
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
       - "8001:8001"
+    environment:
+      # MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
+      MINIO_ENDPOINT: host.docker.internal:9000
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+      # EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
+      # EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
+    networks:
+      - app-network
+    volumes:
+      - ./backend_upload:/app
+
+  backend_process:
+    build:
+      context: ./backend_process
+      dockerfile: Dockerfile
+    container_name: backend_process
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8005:8001"
     environment:
       MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
       MINIO_ENDPOINT: host.docker.internal:9000
@@ -51,13 +59,31 @@ services:
       MINIO_SECRET_KEY: minioadmin
       EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
       EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
-    # depends_on:
-    #   - mongodb
-    #   - minio
     networks:
       - app-network
     volumes:
-      - ./backend:/app
+      - ./backend_process:/app
+
+  backend_type:
+    build:
+      context: ./backend_type
+      dockerfile: Dockerfile
+    container_name: backend_type
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+    ports:
+      - "8003:8001"
+    # environment:
+    #   MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
+    #   MINIO_ENDPOINT: host.docker.internal:9000
+    #   MINIO_ACCESS_KEY: minioadmin
+    #   MINIO_SECRET_KEY: minioadmin
+    #   EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
+    #   EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
+    networks:
+      - app-network
+    volumes:
+      - ./backend_type:/app
 
   # PostgreSQL for Kong
   kong-database:
@@ -123,7 +149,11 @@ services:
         condition: service_healthy
       kong-migration:
         condition: service_completed_successfully
-      backend:
+      backend_process:
+        condition: service_started
+      backend_upload:
+        condition: service_started
+      backend_type:
         condition: service_started
     networks:
       - app-network
@@ -150,7 +180,7 @@ services:
   # Frontend (Nginx serving static files)
   frontend:
     image: nginx:alpine
-    container_name: vibe_frontend
+    container_name: frontend
     ports:
       - "3000:80"
     volumes:
@@ -166,6 +196,4 @@ networks:
     driver: bridge
 
 volumes:
-  # mongodb_data:
-  # minio_data:
   kong_data:

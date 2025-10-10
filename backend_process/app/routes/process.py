@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from loguru import logger
-from ..models import ProcessRequest, ProcessResponse, ProcessingType
+from ..models import ProcessRequest, ProcessResponse
 from ..services import data_processor
 
 router = APIRouter(prefix="/process", tags=["Process"])
@@ -39,17 +39,17 @@ async def process_data(request: ProcessRequest):
         raise HTTPException(status_code=500, detail=f"Error processing data: {str(e)}")
 
 
-@router.get("/types")
-async def get_processing_types():
-    """Get available processing types and their configurations"""
-    from ..models import ProcessingConfig
+# @router.get("/types")
+# async def get_processing_types():
+#     """Get available processing types and their configurations"""
+#     from ..models import ProcessingConfig
 
-    return {
-        "processing_types": [
-            {
-                "type": ptype.value,
-                "config": ProcessingConfig.get_config(ptype)
-            }
-            for ptype in ProcessingType
-        ]
-    }
+#     return {
+#         "processing_types": [
+#             {
+#                 "type": ptype.value,
+#                 "config": ProcessingConfig.get_config(ptype)
+#             }
+#             for ptype in ProcessingType
+#         ]
+#     }

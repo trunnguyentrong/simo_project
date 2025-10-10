@@ -18,6 +18,9 @@ class DataProcessor:
     ) -> Dict[str, Any]:
       
         config = ProcessingConfig.get_config(processing_type)
+
+        logger.debug(config)    
+
         collection_names = config.get("collections")
 
         strategy = ProcessingStrategyFactory.get_strategy(processing_type)

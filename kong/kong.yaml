@@ -1,8 +1,8 @@
 _format_version: "3.0"
 
 services:
-  - name: backend-service
-    url: http://backend:8001
+  - name: backend-service-upload
+    url: http://backend_upload:8001
     routes:
       - name: upload-route
         paths:
@@ -16,7 +16,10 @@ services:
             config:
               replace:
                 uri: /upload/
-      
+
+  - name: backend-service-process
+    url: http://backend_process:8001
+    routes:
       - name: process-route
         paths:
           - /api/process
@@ -27,10 +30,13 @@ services:
             config:
               replace:
                 uri: /process/
-      
-      - name: process-types-route
+
+  - name: backend-service-type
+    url: http://backend_type:8001
+    routes:   
+      - name: types-route
         paths:
-          - /api/process/types
+          - /api/types
         methods:
           - GET
         strip_path: true
@@ -39,20 +45,20 @@ services:
           - name: request-transformer
             config:
               replace:
-                uri: /process/types
+                uri: /types/
       
-      - name: health-route
-        paths:
-          - /api/health
-        methods:
-          - GET
-        strip_path: true
-        preserve_host: false
-        plugins:
-          - name: request-transformer
-            config:
-              replace:
-                uri: /health/
+      # - name: health-route
+      #   paths:
+      #     - /api/health
+      #   methods:
+      #     - GET
+      #   strip_path: true
+      #   preserve_host: false
+      #   plugins:
+      #     - name: request-transformer
+      #       config:
+      #         replace:
+      #           uri: /health/
 
 plugins:
   - name: cors

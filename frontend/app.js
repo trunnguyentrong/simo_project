@@ -151,7 +151,7 @@ uploadBtn.addEventListener('click', async () => {
 // Load processing types on page load
 async function loadProcessingTypes() {
     try {
-        const response = await fetch(`${API_URL}/process/types`);
+        const response = await fetch(`${API_URL}/types`);
         if (response.ok) {
             const data = await response.json();
             processingTypes = data.processing_types;
