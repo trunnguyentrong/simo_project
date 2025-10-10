@@ -1,0 +1,88 @@
+_format_version: "3.0"
+
+services:
+  - name: backend-service
+    url: http://backend:8001
+    routes:
+      - name: upload-route
+        paths:
+          - /api/upload
+        methods:
+          - POST
+        strip_path: true
+        preserve_host: false
+        plugins:
+          - name: request-transformer
+            config:
+              replace:
+                uri: /upload/
+      
+      - name: process-route
+        paths:
+          - /api/process
+        strip_path: true
+        preserve_host: false
+        plugins:
+          - name: request-transformer
+            config:
+              replace:
+                uri: /process/
+      
+      - name: process-types-route
+        paths:
+          - /api/process/types
+        methods:
+          - GET
+        strip_path: true
+        preserve_host: false
+        plugins:
+          - name: request-transformer
+            config:
+              replace:
+                uri: /process/types
+      
+      - name: health-route
+        paths:
+          - /api/health
+        methods:
+          - GET
+        strip_path: true
+        preserve_host: false
+        plugins:
+          - name: request-transformer
+            config:
+              replace:
+                uri: /health/
+
+plugins:
+  - name: cors
+    config:
+      origins:
+        - "*"
+      methods:
+        - GET
+        - POST
+        - PUT
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Accept-Version
+        - Content-Length
+        - Content-MD5
+        - Content-Type
+        - Date
+        - X-Auth-Token
+        - Authorization
+      exposed_headers:
+        - X-Auth-Token
+      credentials: true
+      max_age: 3600
+
+  - name: request-size-limiting
+    config:
+      allowed_payload_size: 100
+
+  - name: prometheus
+    config:
+      per_consumer: false

@@ -1,0 +1,6 @@
+id,quantity,order_date,customer_name
+P001,5,2024-01-15,John Doe
+P002,3,2024-01-16,Jane Smith
+P003,10,2024-01-17,Bob Johnson
+P004,2,2024-01-18,Alice Brown
+P005,7,2024-01-19,Charlie Wilson

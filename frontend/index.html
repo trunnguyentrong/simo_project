@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Modern Data Processing Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+            animation: drift 20s infinite linear;
+            pointer-events: none;
+        }
+
+        @keyframes drift {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-50%, -50%); }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            box-shadow:
+                0 30px 90px rgba(0, 0, 0, 0.25),
+                0 0 0 1px rgba(255, 255, 255, 0.3) inset;
+            padding: 50px;
+            max-width: 700px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            color: #64748b;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .upload-area {
+            border: 3px dashed #a78bfa;
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            margin-bottom: 25px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .upload-area::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .upload-area:hover::before {
+            left: 100%;
+        }
+
+        .upload-area:hover {
+            background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+            border-color: #8b5cf6;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2);
+        }
+
+        .upload-area.dragover {
+            background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
+            border-color: #7c3aed;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .upload-text {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .upload-hint {
+            color: #94a3b8;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 36px;
+            border-radius: 15px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 15px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .button:hover::before {
+            left: 100%;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+        }
+
+        .button:active {
+            transform: translateY(-1px);
+        }
+
+        .button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .file-info {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 4px solid #0ea5e9;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            display: none;
+            animation: slideIn 0.4s ease-out;
+            box-shadow: 0 4px 15px rgba(14, 165, 233, 0.1);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .file-info.show {
+            display: block;
+        }
+
+        .file-info-label {
+            font-weight: 600;
+            color: #0c4a6e;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .file-info-value {
+            color: #0369a1;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 18px 24px;
+            border-radius: 15px;
+            display: none;
+            font-weight: 600;
+            animation: slideIn 0.4s ease-out;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .status.show {
+            display: block;
+        }
+
+        .status.success {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            color: #065f46;
+            border-left: 4px solid #10b981;
+        }
+
+        .status.error {
+            background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+            color: #991b1b;
+            border-left: 4px solid #ef4444;
+        }
+
+        .status.info {
+            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+            color: #1e40af;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .loader {
+            border: 5px solid #f3f4f6;
+            border-top: 5px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 0.8s linear infinite;
+            margin: 25px auto;
+            display: none;
+        }
+
+        .loader.show {
+            display: block;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .process-section {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 2px solid #e2e8f0;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .process-section h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .file-id-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #f59e0b;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            font-size: 14px;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.1);
+        }
+
+        .file-id-label {
+            color: #78350f;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .file-id-value {
+            color: #92400e;
+            font-weight: 700;
+            font-family: 'Courier New', monospace;
+            font-size: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #1e293b;
+            font-size: 15px;
+        }
+
+        select {
+            width: 100%;
+            padding: 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 500;
+            background: white;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            font-family: 'Inter', sans-serif;
+        }
+
+        select:hover {
+            border-color: #a78bfa;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #8b5cf6;
+            box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.1);
+        }
+
+        .type-description {
+            font-size: 13px;
+            color: #64748b;
+            font-weight: 500;
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 8px;
+            min-height: 20px;
+        }
+
+        .result-box {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            max-height: 400px;
+            overflow-y: auto;
+            color: #e2e8f0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            line-height: 1.6;
+        }
+
+        .result-box pre {
+            margin: 0;
+            color: #e2e8f0;
+        }
+
+        /* Scrollbar styling */
+        .result-box::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .result-box::-webkit-scrollbar-track {
+            background: #1e293b;
+            border-radius: 10px;
+        }
+
+        .result-box::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 10px;
+        }
+
+        /* Progress steps */
+        .steps-indicator {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e2e8f0;
+            color: #94a3b8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .step.active .step-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .step.completed .step-number {
+            background: #10b981;
+            color: white;
+        }
+
+        .step-label {
+            font-size: 12px;
+            color: #64748b;
+            font-weight: 600;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .upload-area {
+                padding: 30px;
+            }
+
+            .steps-indicator {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        /* Pulse animation for loader */
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .processing-text {
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            margin-top: 10px;
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Data Processing Platform</h1>
+            <p class="subtitle">Modern Excel file processing with intelligent data transformation</p>
+        </div>
+
+        <!-- Progress Steps -->
+        <div class="steps-indicator">
+            <div class="step active" id="step1">
+                <div class="step-number">1</div>
+                <div class="step-label">Upload</div>
+            </div>
+            <div class="step" id="step2">
+                <div class="step-number">2</div>
+                <div class="step-label">Configure</div>
+            </div>
+            <div class="step" id="step3">
+                <div class="step-number">3</div>
+                <div class="step-label">Process</div>
+            </div>
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📊</div>
+            <p class="upload-text">Click to upload or drag and drop</p>
+            <p class="upload-hint">Excel files only (.xlsx, .xls) • Max size: 50MB</p>
+        </div>
+
+        <input type="file" id="fileInput" accept=".xlsx,.xls">
+
+        <div class="file-info" id="fileInfo">
+            <div class="file-info-label">📄 Selected File</div>
+            <div class="file-info-value" id="fileName"></div>
+        </div>
+
+        <button class="button" id="uploadBtn" disabled>
+            <span>⬆️ Upload File</span>
+        </button>
+
+        <div class="loader" id="uploadLoader"></div>
+        <div class="processing-text" id="uploadProcessing" style="display: none;">Uploading your file...</div>
+        <div class="status" id="uploadStatus"></div>
+
+        <!-- Process Section -->
+        <div class="process-section" id="processSection" style="display: none;">
+            <h2>⚙️ Configure Processing</h2>
+
+            <div class="file-id-box">
+                <div class="file-id-label">File ID</div>
+                <div class="file-id-value" id="fileId"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="processingType">🎯 Select Processing Strategy</label>
+                <select id="processingType" required>
+                    <option value="">-- Choose a processing type --</option>
+                    <option value="type5">Thu thập danh sách TKTT của tổ chức định kỳ</option>
+                    <option value="type6">Thu thập danh sách TKTT của tổ chức nghi ngờ gian lận</option>
+                    <option value="customer">Customer - Profile Data Merge</option>
+                    <option value="product">Product - Category Data Link</option>
+                    <option value="financial">Financial - Account Data Integration</option>
+                </select>
+                <div class="type-description" id="typeDescription">
+                    Select a processing type to see details
+                </div>
+            </div>
+
+            <button class="button" id="processBtn">
+                <span>⚡ Start Processing</span>
+            </button>
+            <div class="loader" id="processLoader"></div>
+            <div class="processing-text" id="processProcessing" style="display: none;">Processing your data...</div>
+            <div class="status" id="processStatus"></div>
+            <div class="result-box" id="resultBox" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
