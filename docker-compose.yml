@@ -1,27 +1,4 @@
 services:
-  # Backend Service
-  # backend:
-  #   build:
-  #     context: ./backend
-  #     dockerfile: Dockerfile
-  #   container_name: vibe_backend
-  #   extra_hosts:
-  #     - "host.docker.internal:host-gateway"
-  #   ports:
-  #     - "8001:8001"
-  #   environment:
-  #     MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
-  #     MINIO_ENDPOINT: host.docker.internal:9000
-  #     MINIO_ACCESS_KEY: minioadmin
-  #     MINIO_SECRET_KEY: minioadmin
-  #     EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
-  #     EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
-  #   networks:
-  #     - app-network
-  #   volumes:
-  #     - ./backend:/app
-
-
   backend_upload:
     build:
       context: ./backend_upload
@@ -32,12 +9,9 @@ services:
     ports:
       - "8001:8001"
     environment:
-      # MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
       MINIO_ENDPOINT: host.docker.internal:9000
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin
-      # EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
-      # EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
     networks:
       - app-network
     volumes:
@@ -53,12 +27,15 @@ services:
     ports:
       - "8005:8001"
     environment:
-      MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
+      MONGODB_URL: mongodb://admin:password@mongodb:27017
       MINIO_ENDPOINT: host.docker.internal:9000
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin
       EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
       EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
+    depends_on:
+      mongodb:
+        condition: service_healthy
     networks:
       - app-network
     volumes:
@@ -69,21 +46,32 @@ services:
       context: ./backend_type
       dockerfile: Dockerfile
     container_name: backend_type
-    # extra_hosts:
-    #   - "host.docker.internal:host-gateway"
     ports:
       - "8003:8001"
-    # environment:
-    #   MONGODB_URL: mongodb://admin:password@host.docker.internal:27017
-    #   MINIO_ENDPOINT: host.docker.internal:9000
-    #   MINIO_ACCESS_KEY: minioadmin
-    #   MINIO_SECRET_KEY: minioadmin
-    #   EXTERNAL_API_URL: ${EXTERNAL_API_URL:-https://external-api.example.com/data}
-    #   EXTERNAL_API_KEY: ${EXTERNAL_API_KEY:-your-api-key-here}
     networks:
       - app-network
     volumes:
       - ./backend_type:/app
+
+  # MongoDB
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./mongodb_test_data:/docker-entrypoint-initdb.d/data:ro
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   # PostgreSQL for Kong
   kong-database:
@@ -197,3 +185,4 @@ networks:
 
 volumes:
   kong_data:
+  mongodb_data:

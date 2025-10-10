@@ -1,0 +1,4002 @@
+[
+  {
+    "ID": "CORP680918",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ NGUYỄN",
+    "TAX_CODE": "6551484064",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151125",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP198321",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH LÊ",
+    "TAX_CODE": "9259907294",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181110",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP575797",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI VŨ",
+    "TAX_CODE": "5877847867",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170202",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP362332",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI LÊ",
+    "TAX_CODE": "9963033891",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180724",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP546066",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THƯƠNG MẠI LÊ",
+    "TAX_CODE": "2822418843",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201005",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP267545",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ LÊ",
+    "TAX_CODE": "5549275585",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210527",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP121157",
+    "CORP_NAME": "CÔNG TY CP Y TẾ VŨ",
+    "TAX_CODE": "7862124607",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151030",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP445956",
+    "CORP_NAME": "CÔNG TY Y TẾ TRẦN",
+    "TAX_CODE": "3318650511",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240316",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP919613",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC HOÀNG",
+    "TAX_CODE": "5460230355",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200818",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP252305",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ MAI",
+    "TAX_CODE": "4504307427",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190630",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP284239",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI PHẠM",
+    "TAX_CODE": "6352888614",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160626",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP589221",
+    "CORP_NAME": "CÔNG TY CP Y TẾ NGUYỄN",
+    "TAX_CODE": "3618357581",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160327",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP371330",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI BÙI",
+    "TAX_CODE": "4037606871",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220403",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP934189",
+    "CORP_NAME": "CÔNG TY TNHH XÂY DỰNG PHẠM",
+    "TAX_CODE": "4675434286",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220614",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP116567",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ SẢN XUẤT LÊ",
+    "TAX_CODE": "5838310974",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231010",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP216961",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ SẢN XUẤT PHẠM",
+    "TAX_CODE": "9948054234",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150808",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP202708",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC BÙI",
+    "TAX_CODE": "6352326431",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210512",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP910419",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "7232946249",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150105",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP366648",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ VŨ",
+    "TAX_CODE": "1219552043",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240127",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP946113",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "7702130341",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210323",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP157975",
+    "CORP_NAME": "CÔNG TY CP Y TẾ TRẦN",
+    "TAX_CODE": "7011945150",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230716",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP108922",
+    "CORP_NAME": "CÔNG TY THỰC PHẨM MAI",
+    "TAX_CODE": "4387350722",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180123",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP845520",
+    "CORP_NAME": "CÔNG TY CP DỊCH VỤ TRẦN",
+    "TAX_CODE": "8682870495",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210127",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP676151",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH VŨ",
+    "TAX_CODE": "1740981317",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150718",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP163026",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC VŨ",
+    "TAX_CODE": "2333606165",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160901",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP934765",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT VŨ",
+    "TAX_CODE": "4140497603",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241119",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP535511",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ LÊ",
+    "TAX_CODE": "3921527895",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220410",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP605563",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG VŨ",
+    "TAX_CODE": "1183574430",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181219",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP152800",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG MAI",
+    "TAX_CODE": "2961734951",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191112",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP785989",
+    "CORP_NAME": "CÔNG TY Y TẾ VŨ",
+    "TAX_CODE": "2377142646",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170108",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP901896",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ LÊ",
+    "TAX_CODE": "4236149857",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211223",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP595568",
+    "CORP_NAME": "CÔNG TY CP Y TẾ NGUYỄN",
+    "TAX_CODE": "6993317138",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181018",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP347807",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH LÊ",
+    "TAX_CODE": "4482707812",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220919",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP211727",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM VŨ",
+    "TAX_CODE": "8856273191",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230915",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP481111",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ PHẠM",
+    "TAX_CODE": "2970386647",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170312",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP820781",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP ĐẶNG",
+    "TAX_CODE": "5590665219",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180502",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP411276",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI NGUYỄN",
+    "TAX_CODE": "8754718139",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190901",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP636198",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI HOÀNG",
+    "TAX_CODE": "7876094418",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201218",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP602475",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ VŨ",
+    "TAX_CODE": "6962695120",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190325",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP326964",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ GIÁO DỤC DƯƠNG",
+    "TAX_CODE": "5128714209",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150113",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP732659",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI BÙI",
+    "TAX_CODE": "4130758449",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220927",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP841287",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI ĐẶNG",
+    "TAX_CODE": "6015092267",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150825",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP145802",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG TRẦN",
+    "TAX_CODE": "1404533615",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210203",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP603121",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC TRẦN",
+    "TAX_CODE": "1827122866",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151225",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP156023",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ MAI",
+    "TAX_CODE": "8203283728",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201123",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP729426",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ BÙI",
+    "TAX_CODE": "4729100207",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160312",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP452061",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ TRẦN",
+    "TAX_CODE": "9997616420",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211213",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP355070",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI ĐẶNG",
+    "TAX_CODE": "1404235365",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210908",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP538884",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ BÙI",
+    "TAX_CODE": "7909753804",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170611",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP149661",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ VŨ",
+    "TAX_CODE": "5350664663",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151111",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP226389",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI NGUYỄN",
+    "TAX_CODE": "6709827988",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210627",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP271276",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "8515054970",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190302",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP345807",
+    "CORP_NAME": "CÔNG TY Y TẾ HOÀNG",
+    "TAX_CODE": "4568538165",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160919",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP458639",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH VŨ",
+    "TAX_CODE": "8768401728",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151013",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP874954",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH TRẦN",
+    "TAX_CODE": "9021479835",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170105",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP830032",
+    "CORP_NAME": "CÔNG TY VẬN TẢI VŨ",
+    "TAX_CODE": "7864363337",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190106",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP345109",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "2673369932",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230914",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP793609",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ ĐẶNG",
+    "TAX_CODE": "9788110644",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210801",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP133670",
+    "CORP_NAME": "CÔNG TY THỰC PHẨM PHẠM",
+    "TAX_CODE": "4720488171",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221117",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP782466",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI HOÀNG",
+    "TAX_CODE": "1276475275",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241102",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP549621",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG MAI",
+    "TAX_CODE": "1584482506",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200515",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP279988",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM HOÀNG",
+    "TAX_CODE": "2161242492",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220920",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP427859",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG TRẦN",
+    "TAX_CODE": "3337656806",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220411",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP679597",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN SẢN XUẤT PHẠM",
+    "TAX_CODE": "3869696221",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161006",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP831598",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DƯƠNG",
+    "TAX_CODE": "7181395301",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181208",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP168289",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI NGUYỄN",
+    "TAX_CODE": "9545668045",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150203",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP751162",
+    "CORP_NAME": "CÔNG TY Y TẾ ĐẶNG",
+    "TAX_CODE": "4035172964",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170227",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP979514",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VŨ",
+    "TAX_CODE": "3678295186",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200914",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP774238",
+    "CORP_NAME": "CÔNG TY CP CÔNG NGHỆ LÊ",
+    "TAX_CODE": "6941360796",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211130",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP764978",
+    "CORP_NAME": "CÔNG TY CP DỊCH VỤ VŨ",
+    "TAX_CODE": "7357775256",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221222",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP281685",
+    "CORP_NAME": "CÔNG TY CP Y TẾ ĐẶNG",
+    "TAX_CODE": "2490242444",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170807",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP168603",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ TRẦN",
+    "TAX_CODE": "8705134595",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160603",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP806056",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC HOÀNG",
+    "TAX_CODE": "4198375570",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180111",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP642525",
+    "CORP_NAME": "CÔNG TY Y TẾ NGUYỄN",
+    "TAX_CODE": "6317727777",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170504",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP742036",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM MAI",
+    "TAX_CODE": "9750061667",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191116",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP750350",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC LÊ",
+    "TAX_CODE": "6711316233",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150327",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP464271",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC BÙI",
+    "TAX_CODE": "9541385123",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211029",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP734440",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ ĐẦU TƯ TRẦN",
+    "TAX_CODE": "2403419907",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180814",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP230653",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC TRẦN",
+    "TAX_CODE": "1865045737",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150604",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP388118",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM NGUYỄN",
+    "TAX_CODE": "8065462614",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220624",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP717656",
+    "CORP_NAME": "CÔNG TY Y TẾ PHẠM",
+    "TAX_CODE": "7783431578",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200215",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP994804",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI ĐẶNG",
+    "TAX_CODE": "3509300549",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151215",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP649033",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM BÙI",
+    "TAX_CODE": "2924277998",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181011",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP863253",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG ĐẶNG",
+    "TAX_CODE": "8097945598",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151110",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP397886",
+    "CORP_NAME": "CÔNG TY CP CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "7515993285",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150318",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP451402",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI VŨ",
+    "TAX_CODE": "5073311247",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200607",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP934042",
+    "CORP_NAME": "CÔNG TY VẬN TẢI LÊ",
+    "TAX_CODE": "5604638689",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240428",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP236370",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG HOÀNG",
+    "TAX_CODE": "7401658827",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230508",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP531250",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC HOÀNG",
+    "TAX_CODE": "8073059651",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210604",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP438770",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ LÊ",
+    "TAX_CODE": "1948048352",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230128",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP675952",
+    "CORP_NAME": "CÔNG TY VẬN TẢI NGUYỄN",
+    "TAX_CODE": "7876595612",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151211",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP842510",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH LÊ",
+    "TAX_CODE": "3039457259",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241230",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP303741",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ PHẠM",
+    "TAX_CODE": "6384726919",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220817",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP633379",
+    "CORP_NAME": "CÔNG TY VẬN TẢI DƯƠNG",
+    "TAX_CODE": "4086925393",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170810",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP333151",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH BÙI",
+    "TAX_CODE": "8213945340",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151230",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP230056",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ ĐẦU TƯ BÙI",
+    "TAX_CODE": "6829679552",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200305",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP356904",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH BÙI",
+    "TAX_CODE": "7606444698",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221024",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP619986",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH HOÀNG",
+    "TAX_CODE": "8983013473",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211116",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP715968",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ BÙI",
+    "TAX_CODE": "6325871705",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190514",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP378017",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG HOÀNG",
+    "TAX_CODE": "7356630917",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200328",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP309422",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THƯƠNG MẠI LÊ",
+    "TAX_CODE": "5621519480",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230617",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP133888",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ LÊ",
+    "TAX_CODE": "8950438883",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230413",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP881047",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM HOÀNG",
+    "TAX_CODE": "6426225421",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170927",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP809711",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI ĐẶNG",
+    "TAX_CODE": "9726908278",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220831",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP162841",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ PHẠM",
+    "TAX_CODE": "2809964669",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151119",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP325482",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ ĐẦU TƯ PHẠM",
+    "TAX_CODE": "7020655191",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151110",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP610510",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ MAI",
+    "TAX_CODE": "8389693983",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230322",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP254414",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG BÙI",
+    "TAX_CODE": "8474849787",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221226",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP652341",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI TRẦN",
+    "TAX_CODE": "1994531301",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230310",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP399654",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "7592903310",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161216",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP326787",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC VŨ",
+    "TAX_CODE": "6963775877",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150513",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP678565",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI TRẦN",
+    "TAX_CODE": "6383013261",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230323",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP417137",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG TRẦN",
+    "TAX_CODE": "6102324954",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211016",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP336904",
+    "CORP_NAME": "CÔNG TY DU LỊCH MAI",
+    "TAX_CODE": "3770853935",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240526",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP417137",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ PHẠM",
+    "TAX_CODE": "2573971876",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200901",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP380531",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "5632271702",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170510",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP752862",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG NGUYỄN",
+    "TAX_CODE": "7539149856",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221201",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP894714",
+    "CORP_NAME": "CÔNG TY SẢN XUẤT HOÀNG",
+    "TAX_CODE": "4667105702",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210803",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP851280",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM PHẠM",
+    "TAX_CODE": "3288657098",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240309",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP264611",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM VŨ",
+    "TAX_CODE": "4612858179",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230723",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP429666",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH LÊ",
+    "TAX_CODE": "4885239048",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180424",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP772256",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ VŨ",
+    "TAX_CODE": "5564570138",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170704",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP110761",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH LÊ",
+    "TAX_CODE": "3288461325",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220714",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP905362",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ VŨ",
+    "TAX_CODE": "7256128844",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230425",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP418322",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC NGUYỄN",
+    "TAX_CODE": "3538378062",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160802",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP817683",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ BÙI",
+    "TAX_CODE": "4451828371",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150404",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP161733",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP BÙI",
+    "TAX_CODE": "1568717010",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220613",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP661561",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI LÊ",
+    "TAX_CODE": "4973081946",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160914",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP748316",
+    "CORP_NAME": "CÔNG TY VẬN TẢI MAI",
+    "TAX_CODE": "5099990661",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150505",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP462034",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ PHẠM",
+    "TAX_CODE": "8016047783",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200709",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP252848",
+    "CORP_NAME": "CÔNG TY TNHH XÂY DỰNG VŨ",
+    "TAX_CODE": "8133975751",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240624",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP235075",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ BÙI",
+    "TAX_CODE": "7685121321",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160515",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP809772",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "9689011033",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160826",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP679252",
+    "CORP_NAME": "CÔNG TY TNHH SẢN XUẤT PHẠM",
+    "TAX_CODE": "4572354209",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171209",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP600281",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH VŨ",
+    "TAX_CODE": "9444073092",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150620",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP511191",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ MAI",
+    "TAX_CODE": "1151514270",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190513",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP633367",
+    "CORP_NAME": "CÔNG TY DU LỊCH MAI",
+    "TAX_CODE": "6930993187",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191010",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP778590",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT HOÀNG",
+    "TAX_CODE": "2641495985",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180218",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP705466",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG PHẠM",
+    "TAX_CODE": "1071624258",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180910",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP276672",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ PHẠM",
+    "TAX_CODE": "2323020491",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210810",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP344694",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH VŨ",
+    "TAX_CODE": "8453557375",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200426",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP789447",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH PHẠM",
+    "TAX_CODE": "7685516848",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240911",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP822224",
+    "CORP_NAME": "CÔNG TY CP Y TẾ DƯƠNG",
+    "TAX_CODE": "4826467564",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190214",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP901050",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "1937736487",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171002",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP661174",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP TRẦN",
+    "TAX_CODE": "7109184272",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190805",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP439683",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ MAI",
+    "TAX_CODE": "7763892579",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181003",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP600774",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ BÙI",
+    "TAX_CODE": "8340611373",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210922",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP167496",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN GIÁO DỤC BÙI",
+    "TAX_CODE": "4988068944",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191022",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP747072",
+    "CORP_NAME": "CÔNG TY DU LỊCH HOÀNG",
+    "TAX_CODE": "7117754787",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181002",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP433754",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ VŨ",
+    "TAX_CODE": "7166844130",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241211",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP152240",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "1788923078",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240513",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP895450",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ MAI",
+    "TAX_CODE": "3745778625",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161207",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP667751",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ BÙI",
+    "TAX_CODE": "3577849657",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200518",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP786719",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI ĐẶNG",
+    "TAX_CODE": "5169675781",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180129",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP979236",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ VŨ",
+    "TAX_CODE": "6334395858",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231129",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP462723",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ LÊ",
+    "TAX_CODE": "6465627768",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241116",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP142889",
+    "CORP_NAME": "CÔNG TY VẬN TẢI VŨ",
+    "TAX_CODE": "9549403502",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220205",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP316227",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM PHẠM",
+    "TAX_CODE": "3462672337",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160314",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP625663",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM MAI",
+    "TAX_CODE": "1182852834",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151217",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP621275",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ LÊ",
+    "TAX_CODE": "9051997922",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210226",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP537030",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ BÙI",
+    "TAX_CODE": "6887457471",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200510",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP688438",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG HOÀNG",
+    "TAX_CODE": "8864899080",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240423",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP629397",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH LÊ",
+    "TAX_CODE": "7370615400",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190225",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP200639",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ MAI",
+    "TAX_CODE": "4353306624",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181020",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP896220",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "7744664242",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180119",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP434746",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG ĐẶNG",
+    "TAX_CODE": "3067635059",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190121",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP932350",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "8882744094",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170630",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP452621",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ Y TẾ DƯƠNG",
+    "TAX_CODE": "7795766112",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230811",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP218020",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ VŨ",
+    "TAX_CODE": "7287028384",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160526",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP576949",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ PHẠM",
+    "TAX_CODE": "2128848992",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220609",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP483026",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "6741368259",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171108",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP199856",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ GIÁO DỤC NGUYỄN",
+    "TAX_CODE": "8081118153",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200330",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP484532",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "3373775554",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240509",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP611494",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "7050681917",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150701",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP302812",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ SẢN XUẤT LÊ",
+    "TAX_CODE": "2023646031",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230426",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP206705",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI MAI",
+    "TAX_CODE": "4076559327",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171108",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP466267",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ MAI",
+    "TAX_CODE": "9769207015",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221229",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP903820",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG HOÀNG",
+    "TAX_CODE": "5821793167",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150415",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP745686",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP ĐẶNG",
+    "TAX_CODE": "4635190941",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230702",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP700601",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ HOÀNG",
+    "TAX_CODE": "5438606305",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210202",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP837815",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI VŨ",
+    "TAX_CODE": "7809143073",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191229",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP806537",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM DƯƠNG",
+    "TAX_CODE": "2750281774",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200626",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP916935",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "1031359041",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180119",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP616422",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ PHẠM",
+    "TAX_CODE": "6268683568",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190718",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP905962",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM HOÀNG",
+    "TAX_CODE": "5137193856",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170313",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP759439",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ BÙI",
+    "TAX_CODE": "5953676315",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240330",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP801904",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ HOÀNG",
+    "TAX_CODE": "1293387241",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241209",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP949606",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP BÙI",
+    "TAX_CODE": "4445711996",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151106",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP213461",
+    "CORP_NAME": "CÔNG TY DU LỊCH VŨ",
+    "TAX_CODE": "6609802660",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230703",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP490386",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT ĐẶNG",
+    "TAX_CODE": "8812425482",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180221",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP636041",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "2452246229",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150826",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP721923",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH ĐẶNG",
+    "TAX_CODE": "8397123563",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201002",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP372808",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ NÔNG NGHIỆP HOÀNG",
+    "TAX_CODE": "1578012804",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150425",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP354734",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ TRẦN",
+    "TAX_CODE": "5186637791",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160204",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP111972",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG DƯƠNG",
+    "TAX_CODE": "7477490182",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241107",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP213673",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ BÙI",
+    "TAX_CODE": "8625626860",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190326",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP979060",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP ĐẶNG",
+    "TAX_CODE": "2786860929",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160120",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP151721",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THƯƠNG MẠI NGUYỄN",
+    "TAX_CODE": "7446762545",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240216",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP985994",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP VŨ",
+    "TAX_CODE": "7015555598",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211123",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP138802",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM DƯƠNG",
+    "TAX_CODE": "4232957187",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211031",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP936348",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG TRẦN",
+    "TAX_CODE": "8519151272",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220327",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP794161",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM MAI",
+    "TAX_CODE": "1227978156",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210312",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP249109",
+    "CORP_NAME": "CÔNG TY VẬN TẢI MAI",
+    "TAX_CODE": "5341244051",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180209",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP727427",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "9166142576",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230304",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP282695",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI NGUYỄN",
+    "TAX_CODE": "9697669234",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221209",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP983993",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "9562681701",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210211",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP528084",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH HOÀNG",
+    "TAX_CODE": "8745703688",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240718",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP701788",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM HOÀNG",
+    "TAX_CODE": "8327293386",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160515",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP669460",
+    "CORP_NAME": "CÔNG TY CP DỊCH VỤ ĐẶNG",
+    "TAX_CODE": "9962654238",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180915",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP706274",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ VŨ",
+    "TAX_CODE": "7884394756",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160214",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP573852",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ LÊ",
+    "TAX_CODE": "2303371327",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160614",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP765418",
+    "CORP_NAME": "CÔNG TY Y TẾ MAI",
+    "TAX_CODE": "2377654453",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170906",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP684426",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI MAI",
+    "TAX_CODE": "7259936730",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240915",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP787923",
+    "CORP_NAME": "CÔNG TY THỰC PHẨM DƯƠNG",
+    "TAX_CODE": "4616513269",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240613",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP285647",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ PHẠM",
+    "TAX_CODE": "8693339194",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230524",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP456815",
+    "CORP_NAME": "CÔNG TY TNHH XÂY DỰNG VŨ",
+    "TAX_CODE": "9775430744",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180528",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP505816",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ VŨ",
+    "TAX_CODE": "8924753743",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161026",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP707881",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH HOÀNG",
+    "TAX_CODE": "1504087458",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160316",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP421570",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ BÙI",
+    "TAX_CODE": "8486899920",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190910",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP274503",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ NÔNG NGHIỆP BÙI",
+    "TAX_CODE": "3476543467",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180427",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP313089",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG MAI",
+    "TAX_CODE": "8238227400",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201204",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP781526",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI BÙI",
+    "TAX_CODE": "7648014061",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150519",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP142866",
+    "CORP_NAME": "CÔNG TY CP Y TẾ BÙI",
+    "TAX_CODE": "8840095562",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160814",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP881639",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI DƯƠNG",
+    "TAX_CODE": "1366785845",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191129",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP665852",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ HOÀNG",
+    "TAX_CODE": "1866364653",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170807",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP746743",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ MAI",
+    "TAX_CODE": "6378291926",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190402",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP371151",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP HOÀNG",
+    "TAX_CODE": "4939044429",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190622",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP916345",
+    "CORP_NAME": "CÔNG TY CP Y TẾ HOÀNG",
+    "TAX_CODE": "2312200868",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160713",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP923624",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ ĐẦU TƯ VŨ",
+    "TAX_CODE": "7681622611",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180322",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP274817",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "9431388222",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160809",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP897056",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN SẢN XUẤT NGUYỄN",
+    "TAX_CODE": "6863332693",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231224",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP655780",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ GIÁO DỤC BÙI",
+    "TAX_CODE": "2704618467",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220812",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP228286",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI TRẦN",
+    "TAX_CODE": "9233680694",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150521",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP318992",
+    "CORP_NAME": "CÔNG TY Y TẾ DƯƠNG",
+    "TAX_CODE": "3842551701",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210120",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP644624",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "4005050402",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171027",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP798910",
+    "CORP_NAME": "CÔNG TY VẬN TẢI BÙI",
+    "TAX_CODE": "6625159548",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160415",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP683750",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG HOÀNG",
+    "TAX_CODE": "3022961319",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150321",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP611357",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ NGUYỄN",
+    "TAX_CODE": "3941085140",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160906",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP858286",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ TRẦN",
+    "TAX_CODE": "6572966789",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180117",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP244167",
+    "CORP_NAME": "CÔNG TY TNHH XÂY DỰNG VŨ",
+    "TAX_CODE": "6450571799",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190828",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP279429",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ NÔNG NGHIỆP HOÀNG",
+    "TAX_CODE": "7216176989",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180203",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP904260",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ DƯƠNG",
+    "TAX_CODE": "4457488981",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170406",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP349464",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ TRẦN",
+    "TAX_CODE": "5339917130",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150720",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP609006",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ TRẦN",
+    "TAX_CODE": "7577849737",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200810",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP212048",
+    "CORP_NAME": "CÔNG TY VẬN TẢI NGUYỄN",
+    "TAX_CODE": "9484412553",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220704",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP699216",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG PHẠM",
+    "TAX_CODE": "3415279486",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210301",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP571820",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ MAI",
+    "TAX_CODE": "4655002781",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230616",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP208150",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN GIÁO DỤC VŨ",
+    "TAX_CODE": "1536411156",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191025",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP925814",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "7268463642",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221021",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP532060",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI TRẦN",
+    "TAX_CODE": "5854541626",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210928",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP173494",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ ĐẶNG",
+    "TAX_CODE": "9224577766",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230228",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP927749",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH BÙI",
+    "TAX_CODE": "8522618908",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180501",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP584903",
+    "CORP_NAME": "CÔNG TY DU LỊCH DƯƠNG",
+    "TAX_CODE": "6911557560",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200505",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP643715",
+    "CORP_NAME": "CÔNG TY TNHH SẢN XUẤT ĐẶNG",
+    "TAX_CODE": "3453948319",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230722",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP411247",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ BÙI",
+    "TAX_CODE": "9006437492",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150727",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP832956",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH BÙI",
+    "TAX_CODE": "6274454005",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190828",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP828259",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT ĐẶNG",
+    "TAX_CODE": "6866785139",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210829",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP760109",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI NGUYỄN",
+    "TAX_CODE": "8210261862",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160830",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP582465",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT ĐẶNG",
+    "TAX_CODE": "6995782735",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150927",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP699342",
+    "CORP_NAME": "CÔNG TY TNHH XÂY DỰNG TRẦN",
+    "TAX_CODE": "3723586570",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201106",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP445987",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC MAI",
+    "TAX_CODE": "6467052616",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231226",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP932501",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ MAI",
+    "TAX_CODE": "8273697028",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231031",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP277010",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI BÙI",
+    "TAX_CODE": "6588589393",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230304",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP312643",
+    "CORP_NAME": "CÔNG TY CP Y TẾ NGUYỄN",
+    "TAX_CODE": "3417068537",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210611",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP170835",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ TRẦN",
+    "TAX_CODE": "5920524913",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200823",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP372428",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM BÙI",
+    "TAX_CODE": "9250962569",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161222",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP250584",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM DƯƠNG",
+    "TAX_CODE": "7154120953",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190129",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP434983",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM VŨ",
+    "TAX_CODE": "2489321225",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201003",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP307752",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC VŨ",
+    "TAX_CODE": "1950540970",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150322",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP978976",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG HOÀNG",
+    "TAX_CODE": "6282821665",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180624",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP697747",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ LÊ",
+    "TAX_CODE": "8812252612",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161006",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP176150",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG PHẠM",
+    "TAX_CODE": "1539076365",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240318",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP843127",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ VŨ",
+    "TAX_CODE": "9363202861",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180821",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP832183",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ PHẠM",
+    "TAX_CODE": "1652343126",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220406",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP191856",
+    "CORP_NAME": "CÔNG TY CP CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "3219950504",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210729",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP879010",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM HOÀNG",
+    "TAX_CODE": "8252410873",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211108",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP893195",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ BÙI",
+    "TAX_CODE": "9297105035",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191106",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP529475",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG HOÀNG",
+    "TAX_CODE": "2849341101",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230510",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP802142",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP MAI",
+    "TAX_CODE": "2857896619",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180718",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP556988",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "5473361113",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160922",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP947957",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "8095848810",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210905",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP819153",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM VŨ",
+    "TAX_CODE": "9436828805",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150409",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP902465",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM ĐẶNG",
+    "TAX_CODE": "9804919860",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170605",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP722745",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG NGUYỄN",
+    "TAX_CODE": "5787085415",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170922",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP661676",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THƯƠNG MẠI ĐẶNG",
+    "TAX_CODE": "8237241107",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190919",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP601883",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC BÙI",
+    "TAX_CODE": "1147209338",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200516",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP801250",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH BÙI",
+    "TAX_CODE": "6124563547",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170513",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP334121",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC HOÀNG",
+    "TAX_CODE": "1953246993",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230815",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP397853",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC PHẠM",
+    "TAX_CODE": "6172942586",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200305",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP137034",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI DƯƠNG",
+    "TAX_CODE": "8401163899",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200115",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP615294",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI ĐẶNG",
+    "TAX_CODE": "7120270725",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181222",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP521706",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ VŨ",
+    "TAX_CODE": "4223347480",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200825",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP975450",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI NGUYỄN",
+    "TAX_CODE": "4397349956",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170910",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP496915",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM LÊ",
+    "TAX_CODE": "7688163907",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160319",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP261165",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI VŨ",
+    "TAX_CODE": "5911627190",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220615",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP436854",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP LÊ",
+    "TAX_CODE": "6764282126",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210813",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP690961",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC MAI",
+    "TAX_CODE": "4620361249",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210515",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP634775",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ SẢN XUẤT BÙI",
+    "TAX_CODE": "6625790241",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160203",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP651710",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP TRẦN",
+    "TAX_CODE": "1255288477",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150503",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP422136",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ DƯƠNG",
+    "TAX_CODE": "5234476161",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200707",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP384656",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI MAI",
+    "TAX_CODE": "7954399182",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221010",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP252328",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN SẢN XUẤT HOÀNG",
+    "TAX_CODE": "2736113628",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150118",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP400909",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ LÊ",
+    "TAX_CODE": "7305431903",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240726",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP691252",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ ĐẶNG",
+    "TAX_CODE": "3701677843",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230829",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP145554",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI DƯƠNG",
+    "TAX_CODE": "4649866310",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170609",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP388789",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ NÔNG NGHIỆP TRẦN",
+    "TAX_CODE": "3638017707",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210718",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP741203",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN GIÁO DỤC VŨ",
+    "TAX_CODE": "6505496098",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180525",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP682296",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ NGUYỄN",
+    "TAX_CODE": "8887244209",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170222",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP180540",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ LÊ",
+    "TAX_CODE": "1178466107",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151029",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP926263",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ ĐẶNG",
+    "TAX_CODE": "4273767810",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220705",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP576263",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC NGUYỄN",
+    "TAX_CODE": "4196989649",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240426",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP496744",
+    "CORP_NAME": "CÔNG TY SẢN XUẤT PHẠM",
+    "TAX_CODE": "9110576985",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230222",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP166469",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ MAI",
+    "TAX_CODE": "2124566911",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180224",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP999537",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP ĐẶNG",
+    "TAX_CODE": "5739791403",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150209",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP426966",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG DƯƠNG",
+    "TAX_CODE": "7452449873",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190824",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP505161",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI BÙI",
+    "TAX_CODE": "1913454225",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150331",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP508656",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ LÊ",
+    "TAX_CODE": "3034960905",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230729",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP381850",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH BÙI",
+    "TAX_CODE": "8411584152",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150422",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP370817",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP VŨ",
+    "TAX_CODE": "7550953908",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150116",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP884118",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ MAI",
+    "TAX_CODE": "1382087096",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240224",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP948365",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ TRẦN",
+    "TAX_CODE": "9870686423",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220330",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP191843",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI BÙI",
+    "TAX_CODE": "6722130298",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190726",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP507369",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG PHẠM",
+    "TAX_CODE": "5558819351",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191211",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP364582",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI MAI",
+    "TAX_CODE": "3007025727",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220414",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP578145",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG VŨ",
+    "TAX_CODE": "4236230221",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191226",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP311800",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH HOÀNG",
+    "TAX_CODE": "3266905854",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160329",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP154600",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ PHẠM",
+    "TAX_CODE": "3646075263",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161128",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP473998",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ BÙI",
+    "TAX_CODE": "7111197570",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180218",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP692072",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM MAI",
+    "TAX_CODE": "9270465406",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190313",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP812723",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "4121980490",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190115",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP324859",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM BÙI",
+    "TAX_CODE": "8866111139",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170822",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP631173",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM PHẠM",
+    "TAX_CODE": "4104292484",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170314",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP751935",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH ĐẶNG",
+    "TAX_CODE": "5692203566",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221112",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP509486",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG MAI",
+    "TAX_CODE": "2848644513",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190205",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP340119",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH ĐẶNG",
+    "TAX_CODE": "3609299748",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160430",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP831367",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC PHẠM",
+    "TAX_CODE": "3630047061",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241031",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP206560",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "8069035955",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190117",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP852193",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ TRẦN",
+    "TAX_CODE": "3840742898",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200501",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP733693",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ NGUYỄN",
+    "TAX_CODE": "9692384914",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161212",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP957710",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI TRẦN",
+    "TAX_CODE": "5611934080",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151016",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP883270",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP LÊ",
+    "TAX_CODE": "3208772899",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160724",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP995163",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP DƯƠNG",
+    "TAX_CODE": "9467586020",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240501",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP806586",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI MAI",
+    "TAX_CODE": "5558512138",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220618",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP356913",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "9458625008",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230216",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP909605",
+    "CORP_NAME": "CÔNG TY GIÁO DỤC BÙI",
+    "TAX_CODE": "1600046145",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190810",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP604042",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI HOÀNG",
+    "TAX_CODE": "4082858906",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240416",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP222021",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ Y TẾ ĐẶNG",
+    "TAX_CODE": "6320329899",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200906",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP988790",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI TRẦN",
+    "TAX_CODE": "2176456198",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240519",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP699329",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP HOÀNG",
+    "TAX_CODE": "2474416790",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231104",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP283296",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ Y TẾ PHẠM",
+    "TAX_CODE": "6327476347",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210716",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP428226",
+    "CORP_NAME": "CÔNG TY CP Y TẾ NGUYỄN",
+    "TAX_CODE": "6399903508",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180519",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP218453",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI VŨ",
+    "TAX_CODE": "5170813887",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170623",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP689224",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH MAI",
+    "TAX_CODE": "6729244483",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221117",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP771411",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM ĐẶNG",
+    "TAX_CODE": "4817272136",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230930",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP473639",
+    "CORP_NAME": "CÔNG TY THƯƠNG MẠI LÊ",
+    "TAX_CODE": "3955347415",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150306",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP860056",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ DƯƠNG",
+    "TAX_CODE": "1626009565",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180820",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP752726",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "9381147340",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200402",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP994136",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "8574779897",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151004",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP189483",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI MAI",
+    "TAX_CODE": "9256720065",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150218",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP552029",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI BÙI",
+    "TAX_CODE": "5983505023",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210325",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP145048",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI DƯƠNG",
+    "TAX_CODE": "5107022434",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150512",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP685754",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC NGUYỄN",
+    "TAX_CODE": "3002904954",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240527",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP280108",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ PHẠM",
+    "TAX_CODE": "8371319661",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181217",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP594861",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG BÙI",
+    "TAX_CODE": "9865041910",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200114",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP969903",
+    "CORP_NAME": "CÔNG TY TNHH VẬN TẢI ĐẶNG",
+    "TAX_CODE": "5982874026",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211116",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP755051",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ BÙI",
+    "TAX_CODE": "2426001805",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220904",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP638200",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ LÊ",
+    "TAX_CODE": "1553612485",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191025",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP538662",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH NGUYỄN",
+    "TAX_CODE": "1578276003",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170912",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP839654",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "2179647263",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200215",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP687469",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ BÙI",
+    "TAX_CODE": "2702504786",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160522",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP808901",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG PHẠM",
+    "TAX_CODE": "2068283941",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240815",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP119776",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI VŨ",
+    "TAX_CODE": "7167118224",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171216",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP927094",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN GIÁO DỤC VŨ",
+    "TAX_CODE": "1117979814",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180910",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP532929",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC VŨ",
+    "TAX_CODE": "9605366115",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160614",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP957857",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "8756941362",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211125",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP445921",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM HOÀNG",
+    "TAX_CODE": "6718390868",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161016",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP779395",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ NÔNG NGHIỆP VŨ",
+    "TAX_CODE": "2306360124",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181203",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP456371",
+    "CORP_NAME": "CÔNG TY CP Y TẾ BÙI",
+    "TAX_CODE": "2563936768",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230827",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP266888",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN CÔNG NGHỆ MAI",
+    "TAX_CODE": "6074834411",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191230",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP389784",
+    "CORP_NAME": "CÔNG TY Y TẾ HOÀNG",
+    "TAX_CODE": "2022029756",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171109",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP977416",
+    "CORP_NAME": "CÔNG TY VẬN TẢI BÙI",
+    "TAX_CODE": "8917319762",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240409",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP836643",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM PHẠM",
+    "TAX_CODE": "8594220618",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220530",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP872226",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ PHẠM",
+    "TAX_CODE": "7042010390",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180808",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP813681",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH TRẦN",
+    "TAX_CODE": "1959923817",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221212",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP904314",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI MAI",
+    "TAX_CODE": "9578425587",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150103",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP276042",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI TRẦN",
+    "TAX_CODE": "4335418539",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170405",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP305266",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH LÊ",
+    "TAX_CODE": "4214067225",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160616",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP509380",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM PHẠM",
+    "TAX_CODE": "8039671116",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210622",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP513083",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ PHẠM",
+    "TAX_CODE": "8201624910",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230523",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP783630",
+    "CORP_NAME": "CÔNG TY TNHH GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "7766207239",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190610",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP104270",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ DƯƠNG",
+    "TAX_CODE": "8833430046",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231008",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP938830",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ BÙI",
+    "TAX_CODE": "5136099742",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200125",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP546738",
+    "CORP_NAME": "CÔNG TY CP VẬN TẢI TRẦN",
+    "TAX_CODE": "9273188939",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180312",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP214426",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG DƯƠNG",
+    "TAX_CODE": "8445866403",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171018",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP640776",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "4181592077",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200307",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP632029",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP DƯƠNG",
+    "TAX_CODE": "7429047487",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190903",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP328674",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "5462227155",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240606",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP820065",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH TRẦN",
+    "TAX_CODE": "9406546164",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160120",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP632530",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ DƯƠNG",
+    "TAX_CODE": "1673116725",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170220",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP528658",
+    "CORP_NAME": "CÔNG TY Y TẾ VŨ",
+    "TAX_CODE": "7889190988",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160616",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP244959",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ VŨ",
+    "TAX_CODE": "1839955747",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200222",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP224655",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ ĐẶNG",
+    "TAX_CODE": "2934841169",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171211",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP380848",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH DƯƠNG",
+    "TAX_CODE": "5616387964",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191003",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP828614",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG DƯƠNG",
+    "TAX_CODE": "1639076194",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150617",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP538406",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ BÙI",
+    "TAX_CODE": "8700734258",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210427",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP677778",
+    "CORP_NAME": "CÔNG TY DỊCH VỤ LÊ",
+    "TAX_CODE": "3564376563",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220213",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP538803",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG BÙI",
+    "TAX_CODE": "2740411609",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160922",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP504963",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ LÊ",
+    "TAX_CODE": "8279860811",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171014",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP322556",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN VẬN TẢI BÙI",
+    "TAX_CODE": "5323386885",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200803",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP777554",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH PHẠM",
+    "TAX_CODE": "5235541974",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210619",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP130651",
+    "CORP_NAME": "CÔNG TY SẢN XUẤT BÙI",
+    "TAX_CODE": "4542531250",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190628",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP818958",
+    "CORP_NAME": "CÔNG TY CP SẢN XUẤT DƯƠNG",
+    "TAX_CODE": "9856518357",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191225",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP856340",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ MAI",
+    "TAX_CODE": "3912912275",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161208",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP424365",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG ĐẶNG",
+    "TAX_CODE": "7258178834",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210920",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP780581",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "9901612246",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210908",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP102563",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DỊCH VỤ MAI",
+    "TAX_CODE": "5401871285",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151215",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP158356",
+    "CORP_NAME": "CÔNG TY SẢN XUẤT HOÀNG",
+    "TAX_CODE": "4798729163",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200923",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP156771",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN ĐẦU TƯ MAI",
+    "TAX_CODE": "6687182978",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230331",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP258047",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM HOÀNG",
+    "TAX_CODE": "5281347687",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190923",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP528187",
+    "CORP_NAME": "CÔNG TY TNHH Y TẾ DƯƠNG",
+    "TAX_CODE": "9673482376",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20191014",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP459285",
+    "CORP_NAME": "CÔNG TY CP CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "2980117106",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200130",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP949832",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VŨ",
+    "TAX_CODE": "7084139837",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200514",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP190608",
+    "CORP_NAME": "CÔNG TY CP Y TẾ DƯƠNG",
+    "TAX_CODE": "7900567984",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160919",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP727823",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC ĐẶNG",
+    "TAX_CODE": "4090456905",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221207",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP458193",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH HOÀNG",
+    "TAX_CODE": "9910046333",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201014",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP640342",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ VŨ",
+    "TAX_CODE": "9908924881",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240530",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP167217",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH VŨ",
+    "TAX_CODE": "2127465845",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210330",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP979183",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ XÂY DỰNG PHẠM",
+    "TAX_CODE": "9953893635",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211009",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP101231",
+    "CORP_NAME": "CÔNG TY THỰC PHẨM VŨ",
+    "TAX_CODE": "8237685438",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200613",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP780383",
+    "CORP_NAME": "CÔNG TY TNHH THỰC PHẨM MAI",
+    "TAX_CODE": "5076150500",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200414",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP674590",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "8438924168",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210911",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP187280",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ LÊ",
+    "TAX_CODE": "5185211818",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160111",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP682240",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG HOÀNG",
+    "TAX_CODE": "4120348548",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150218",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP596558",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP ĐẶNG",
+    "TAX_CODE": "3691732167",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20221120",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP593531",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ PHẠM",
+    "TAX_CODE": "7328080348",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220409",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP728250",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ DƯƠNG",
+    "TAX_CODE": "6623108992",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240428",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP779945",
+    "CORP_NAME": "CÔNG TY CP XÂY DỰNG DƯƠNG",
+    "TAX_CODE": "2208091216",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190715",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP405891",
+    "CORP_NAME": "CÔNG TY TNHH NÔNG NGHIỆP VŨ",
+    "TAX_CODE": "8949071459",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160116",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP565713",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ VẬN TẢI NGUYỄN",
+    "TAX_CODE": "7216057509",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201225",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP620517",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH PHẠM",
+    "TAX_CODE": "3823078593",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231221",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP633871",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ DƯƠNG",
+    "TAX_CODE": "3629698845",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201012",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP520235",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ BÙI",
+    "TAX_CODE": "4154530661",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220723",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP692379",
+    "CORP_NAME": "CÔNG TY Y TẾ DƯƠNG",
+    "TAX_CODE": "7690876502",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170506",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP252417",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM BÙI",
+    "TAX_CODE": "3539023418",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160203",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP643244",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM MAI",
+    "TAX_CODE": "4700553530",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201228",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP333174",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI DƯƠNG",
+    "TAX_CODE": "6337625868",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20240409",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP958505",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM VŨ",
+    "TAX_CODE": "3982625756",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220419",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP263784",
+    "CORP_NAME": "CÔNG TY CP NÔNG NGHIỆP NGUYỄN",
+    "TAX_CODE": "8981879178",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171220",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP240777",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ VŨ",
+    "TAX_CODE": "8952399097",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180429",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP739377",
+    "CORP_NAME": "CÔNG TY CP THƯƠNG MẠI LÊ",
+    "TAX_CODE": "8749690460",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200411",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP409002",
+    "CORP_NAME": "CÔNG TY CP Y TẾ NGUYỄN",
+    "TAX_CODE": "5740328129",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230201",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP182336",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ SẢN XUẤT DƯƠNG",
+    "TAX_CODE": "7438312713",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210101",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP567679",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ Y TẾ BÙI",
+    "TAX_CODE": "7952088903",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210812",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP409236",
+    "CORP_NAME": "CÔNG TY TNHH DỊCH VỤ DƯƠNG",
+    "TAX_CODE": "2192432916",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160418",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP444240",
+    "CORP_NAME": "CÔNG TY VẬN TẢI ĐẶNG",
+    "TAX_CODE": "7243501312",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220610",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP392342",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ TRẦN",
+    "TAX_CODE": "8677795093",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200514",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP224600",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ VŨ",
+    "TAX_CODE": "8745189396",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160711",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP789156",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ CÔNG NGHỆ HOÀNG",
+    "TAX_CODE": "7929024030",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201024",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP840874",
+    "CORP_NAME": "CÔNG TY CP DU LỊCH DƯƠNG",
+    "TAX_CODE": "2286381646",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171013",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP782169",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THƯƠNG MẠI ĐẶNG",
+    "TAX_CODE": "7600916807",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220216",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP297187",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI PHẠM",
+    "TAX_CODE": "1328556143",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210204",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP611988",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG VŨ",
+    "TAX_CODE": "9186940836",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190901",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP752825",
+    "CORP_NAME": "CÔNG TY CÔNG NGHỆ TRẦN",
+    "TAX_CODE": "7500860082",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190323",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP648285",
+    "CORP_NAME": "CÔNG TY TNHH SẢN XUẤT TRẦN",
+    "TAX_CODE": "3243061347",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181018",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP712368",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ ĐẶNG",
+    "TAX_CODE": "7929726833",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190517",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP981536",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DƯƠNG",
+    "TAX_CODE": "5449600498",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160923",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP807276",
+    "CORP_NAME": "CÔNG TY CP Y TẾ PHẠM",
+    "TAX_CODE": "2976851343",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231121",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP553604",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ GIÁO DỤC PHẠM",
+    "TAX_CODE": "2258339074",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20231101",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP594087",
+    "CORP_NAME": "CÔNG TY CP GIÁO DỤC NGUYỄN",
+    "TAX_CODE": "9714747406",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20170923",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP688291",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ HOÀNG",
+    "TAX_CODE": "4192791245",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190724",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP891037",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH HOÀNG",
+    "TAX_CODE": "6337432610",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20241227",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP943285",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH NGUYỄN",
+    "TAX_CODE": "4294684247",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150818",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP712380",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ NGUYỄN",
+    "TAX_CODE": "2985486830",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230512",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP427336",
+    "CORP_NAME": "CÔNG TY CP ĐẦU TƯ NGUYỄN",
+    "TAX_CODE": "5949490227",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181102",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP934418",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH HOÀNG",
+    "TAX_CODE": "3788460375",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20180415",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP927027",
+    "CORP_NAME": "CÔNG TY VẬN TẢI VŨ",
+    "TAX_CODE": "9006793532",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190626",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP738291",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ NGUYỄN",
+    "TAX_CODE": "9150889539",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230515",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP846245",
+    "CORP_NAME": "CÔNG TY CP Y TẾ BÙI",
+    "TAX_CODE": "4642736742",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20220926",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP660630",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ THỰC PHẨM ĐẶNG",
+    "TAX_CODE": "2879921272",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150213",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP542232",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN XÂY DỰNG BÙI",
+    "TAX_CODE": "7391726092",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150409",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP149491",
+    "CORP_NAME": "CÔNG TY CP DỊCH VỤ ĐẶNG",
+    "TAX_CODE": "9714213132",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160425",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP670741",
+    "CORP_NAME": "CÔNG TY CP DỊCH VỤ MAI",
+    "TAX_CODE": "6823347355",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210301",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP667109",
+    "CORP_NAME": "CÔNG TY TNHH THƯƠNG MẠI LÊ",
+    "TAX_CODE": "1938277142",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200216",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP766776",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DU LỊCH PHẠM",
+    "TAX_CODE": "8588977843",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151018",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP695953",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN Y TẾ VŨ",
+    "TAX_CODE": "7743280632",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190215",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP690500",
+    "CORP_NAME": "CÔNG TY TNHH DU LỊCH VŨ",
+    "TAX_CODE": "5787741487",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201006",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP461731",
+    "CORP_NAME": "CÔNG TY CP THỰC PHẨM ĐẶNG",
+    "TAX_CODE": "2344078337",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20230416",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP801219",
+    "CORP_NAME": "CÔNG TY NÔNG NGHIỆP PHẠM",
+    "TAX_CODE": "4261200703",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20190604",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP413911",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH MAI",
+    "TAX_CODE": "6565639951",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160902",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP753222",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH ĐẶNG",
+    "TAX_CODE": "1869650095",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20201001",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP864183",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN NÔNG NGHIỆP BÙI",
+    "TAX_CODE": "4686125817",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161206",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP310003",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ DỊCH VỤ ĐẶNG",
+    "TAX_CODE": "4375788201",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20210616",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP678475",
+    "CORP_NAME": "CÔNG TY TNHH CÔNG NGHỆ PHẠM",
+    "TAX_CODE": "3834826984",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20181219",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP128216",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN DU LỊCH ĐẶNG",
+    "TAX_CODE": "2086114162",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20160712",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP938772",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN THỰC PHẨM LÊ",
+    "TAX_CODE": "5197875893",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20171209",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP904401",
+    "CORP_NAME": "CÔNG TY VẬN TẢI PHẠM",
+    "TAX_CODE": "3971707375",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20200306",
+    "STATUS": "SUSPENDED"
+  },
+  {
+    "ID": "CORP350836",
+    "CORP_NAME": "CÔNG TY CỔ PHẦN SẢN XUẤT LÊ",
+    "TAX_CODE": "1500351882",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20150417",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP141349",
+    "CORP_NAME": "CÔNG TY TNHH ĐẦU TƯ BÙI",
+    "TAX_CODE": "1147617239",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20211206",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP498297",
+    "CORP_NAME": "CÔNG TY ĐẦU TƯ ĐẦU TƯ BÙI",
+    "TAX_CODE": "8772041834",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20161008",
+    "STATUS": "ACTIVE"
+  },
+  {
+    "ID": "CORP703680",
+    "CORP_NAME": "CÔNG TY XÂY DỰNG NGUYỄN",
+    "TAX_CODE": "3203906411",
+    "IS_DELETE": "N",
+    "CREATED_DATE": "20151015",
+    "STATUS": "ACTIVE"
+  }
+]
