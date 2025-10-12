@@ -1,5 +1,14 @@
 from pydantic_settings import BaseSettings
 
+mapping = {
+    "5": ["upload-bao-cao-danh-sachtktt-khdn-api",
+          """SELECT * 
+            from users
+            join EXCEL on users.user_id = EXCEL.user_id"""],
+    "6": [""]
+}
+
+
 
 class Settings(BaseSettings):
     # MongoDB

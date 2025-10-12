@@ -8,12 +8,14 @@ import pandas as pd
 from typing import Dict, Any, List
 import duckdb
 from ..models import ProcessingType
+from ..config.settings import mapping
 
 
 class ProcessingStrategy(ABC):
     """Abstract base class for processing strategies"""
-    endpoint_string = ""
-    sql_string = ""
+    def __init__(self, endpoint_string: str, sql_string: str):
+        self.endpoint_string = endpoint_string
+        self.sql_string = sql_string
 
     @abstractmethod
     def transform_data(self, dataframes: Dict[str,pd.DataFrame]) -> pd.DataFrame:
@@ -22,11 +24,8 @@ class ProcessingStrategy(ABC):
 
 
 class ProcessingStrategyType5(ProcessingStrategy):
-    endpoint_string = "upload-bao-cao-danh-sachtktt-khdn-api"
-    sql_string = """SELECT * 
-                    from users
-                    join EXCEL on users.user_id = EXCEL.user_id
-                """
+    def __init__(self, endpoint_string, sql_string):
+        super().__init__(endpoint_string, sql_string)
 
     def transform_data(self, dataframes: Dict[str,pd.DataFrame]) -> pd.DataFrame:
         conn = duckdb.connect()
@@ -43,7 +42,7 @@ class ProcessingStrategyFactory:
     """Factory to get the appropriate processing strategy"""
 
     _strategies = {
-        ProcessingType.TYPE5: ProcessingStrategyType5(),
+        ProcessingType.TYPE5: ProcessingStrategyType5(mapping["5"][0], mapping["5"][1]),
         # ProcessingType.INVENTORY: InventoryProcessingStrategy(),
         # ProcessingType.CUSTOMER: CustomerProcessingStrategy(),
         # ProcessingType.PRODUCT: ProductProcessingStrategy(),
