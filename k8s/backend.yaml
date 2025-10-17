@@ -1,0 +1,428 @@
+---
+# Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-kong
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: external-minio
+  namespace: test-kong
+spec:
+  # type: ExternalName
+  # externalName: host.docker.internal
+  ports:
+    - port: 9000
+      targetPort: 9000
+      protocol: TCP
+  clusterIP: None
+---
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: external-minio
+  namespace: test-kong  # must match service namespace
+subsets:
+- addresses:
+  - ip: 172.18.0.2  # Replace with your actual host IP
+  ports:
+  - port: 9000
+    protocol: TCP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: external-mongodb
+  namespace: test-kong
+spec:
+  # type: ExternalName
+  # externalName: host.docker.internal
+  ports:
+    - port: 27017
+      targetPort: 27017
+      protocol: TCP
+  clusterIP: None
+---
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: external-mongodb
+  namespace: test-kong  # must match service namespace
+subsets:
+- addresses:
+  - ip: 172.18.0.4  # Replace with your actual host IP
+  ports:
+  - port: 27017
+    protocol: TCP
+
+
+---
+# PostgreSQL Database for Kong
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+  namespace: test-kong
+spec:
+  ports:
+  - port: 5432
+  selector:
+    app: postgres
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres
+  namespace: test-kong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+  template:
+    metadata:
+      labels:
+        app: postgres
+    spec:
+      containers:
+      - name: postgres
+        image: postgres:13
+        env:
+        - name: POSTGRES_USER
+          value: "kong"
+        - name: POSTGRES_PASSWORD
+          value: "kong"
+        - name: POSTGRES_DB
+          value: "kong"
+        ports:
+        - containerPort: 5432
+        volumeMounts:
+        - name: postgres-storage
+          mountPath: /var/lib/postgresql/data
+          subPath: pgdata
+      volumes:
+      - name: postgres-storage
+        emptyDir: {}
+
+---
+# Kong Migration Job
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: kong-migration
+  namespace: test-kong
+spec:
+  template:
+    spec:
+      containers:
+      - name: kong-migration
+        image: kong:3.4
+        env:
+        - name: KONG_DATABASE
+          value: "postgres"
+        - name: KONG_PG_HOST
+          value: "postgres"
+        - name: KONG_PG_USER
+          value: "kong"
+        - name: KONG_PG_PASSWORD
+          value: "kong"
+        command: [ "kong", "migrations", "bootstrap" ]
+      restartPolicy: OnFailure
+
+---
+# Foo Backend Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-process-deployment
+  namespace: test-kong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-process
+  template:
+    metadata:
+      labels:
+        app: backend-process
+    spec:
+      containers:
+      - name: api
+        image: trungnt1205/backend-process:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8001
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-process-service
+  namespace: test-kong
+  labels:
+    app: backend-process-service
+spec:
+  ports:
+  - port: 5000
+    name: http
+    targetPort: 8001
+  selector:
+    app: backend-process
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-type-deployment
+  namespace: test-kong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-type
+  template:
+    metadata:
+      labels:
+        app: backend-type
+    spec:
+      containers:
+      - name: api
+        image: trungnt1205/backend-type:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8001
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-type-service
+  namespace: test-kong
+  labels:
+    app: backend-type-service
+spec:
+  ports:
+  - port: 5000
+    name: http
+    targetPort: 8001
+  selector:
+    app: backend-type
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-upload-deployment
+  namespace: test-kong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-upload
+  template:
+    metadata:
+      labels:
+        app: backend-upload
+    spec:
+      containers:
+      - name: api
+        image: trungnt1205/backend-upload:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8001
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-upload-service
+  namespace: test-kong
+  labels:
+    app: backend-upload-service
+spec:
+  ports:
+  - port: 5000
+    name: http
+    targetPort: 8001
+  selector:
+    app: backend-upload
+---
+# Kong Proxy Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: kong-proxy
+  namespace: test-kong
+spec:
+  type: NodePort
+  ports:
+  - name: proxy
+    port: 80
+    targetPort: 8000
+    protocol: TCP
+  - name: proxy-ssl
+    port: 443
+    targetPort: 8443
+    protocol: TCP
+  selector:
+    app: kong
+
+---
+# Kong Admin Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: kong-admin
+  namespace: test-kong
+spec:
+  type: ClusterIP
+  ports:
+  - name: admin
+    port: 8001
+    targetPort: 8001
+    protocol: TCP
+  selector:
+    app: kong
+
+---
+# Kong Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kong
+  namespace: test-kong
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kong
+  template:
+    metadata:
+      labels:
+        app: kong
+    spec:
+      containers:
+      - name: kong
+        image: kong:3.4
+        env:
+        - name: KONG_DATABASE
+          value: "postgres"
+        - name: KONG_PG_HOST
+          value: "postgres"
+        - name: KONG_PG_USER
+          value: "kong"
+        - name: KONG_PG_PASSWORD
+          value: "kong"
+        - name: KONG_PROXY_ACCESS_LOG
+          value: "/dev/stdout"
+        - name: KONG_ADMIN_ACCESS_LOG
+          value: "/dev/stdout"
+        - name: KONG_PROXY_ERROR_LOG
+          value: "/dev/stderr"
+        - name: KONG_ADMIN_ERROR_LOG
+          value: "/dev/stderr"
+        - name: KONG_ADMIN_LISTEN
+          value: "0.0.0.0:8001"
+        - name: KONG_PROXY_LISTEN
+          value: "0.0.0.0:8000, 0.0.0.0:8443 ssl"
+        ports:
+        - name: proxy
+          containerPort: 8000
+        - name: proxy-ssl
+          containerPort: 8443
+        - name: admin
+          containerPort: 8001
+        livenessProbe:
+          httpGet:
+            path: /status
+            port: 8001
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /status
+            port: 8001
+          initialDelaySeconds: 10
+          periodSeconds: 5
+
+---
+# Kong Configuration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kong-config
+  namespace: test-kong
+data:
+  configure.sh: |
+    #!/bin/sh
+    
+    # Wait for Kong Admin API to be ready
+    until curl -s http://kong-admin.test-kong.svc.cluster.local:8001/status > /dev/null; do
+      echo "Waiting for Kong Admin API..."
+      sleep 2
+    done
+    
+    echo "Kong is ready. Configuring services and routes..."
+    
+    # Configure backend-process Service
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services \
+      --data name=backend-process-service \
+      --data url='http://backend-process-service.test-kong.svc.cluster.local:5000'
+    
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services/backend-process-service/routes \
+      --data 'paths[]=/process' \
+      --data name=process-route \
+      --data strip_path=true
+    
+    # Configure backend-type Service
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services \
+      --data name=backend-type-service \
+      --data url='http://backend-type-service.test-kong.svc.cluster.local:5000'
+    
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services/backend-type-service/routes \
+      --data 'paths[]=/types' \
+      --data name=type-route \
+      --data strip_path=true
+
+    # Configure backend-upload Service
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services \
+      --data name=backend-upload-service \
+      --data url='http://backend-upload-service.test-kong.svc.cluster.local:5000'
+    
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services/backend-upload-service/routes \
+      --data 'paths[]=/upload' \
+      --data name=upload-route \
+      --data strip_path=true
+    
+
+    echo "Kong configuration complete!"
+
+---
+# Kong Configuration Job
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: kong-configure
+  namespace: test-kong
+spec:
+  template:
+    spec:
+      containers:
+      - name: kong-configure
+        image: curlimages/curl:latest
+        command: ["/bin/sh", "/config/configure.sh"]
+        volumeMounts:
+        - name: config
+          mountPath: /config
+      volumes:
+      - name: config
+        configMap:
+          name: kong-config
+          defaultMode: 0777
+      restartPolicy: OnFailure
+  backoffLimit: 10

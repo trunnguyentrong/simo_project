@@ -4,7 +4,7 @@ from datetime import datetime
 from ..models import UploadResponse
 from ..services import minio_service
 
-router = APIRouter(prefix="/upload", tags=["Upload"])
+router = APIRouter(prefix="", tags=["Upload"])
 
 
 @router.post("/", response_model=UploadResponse)

@@ -3,7 +3,7 @@ from loguru import logger
 from ..models import ProcessRequest, ProcessResponse
 from ..services import data_processor
 
-router = APIRouter(prefix="/process", tags=["Process"])
+router = APIRouter(prefix="", tags=["Process"])
 
 
 @router.post("/", response_model=ProcessResponse)

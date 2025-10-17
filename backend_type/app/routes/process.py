@@ -3,7 +3,7 @@ from loguru import logger
 from ..models import ProcessRequest, ProcessResponse, ProcessingType
 # from ..services import data_processor
 
-router = APIRouter(prefix="/types", tags=["Type"])
+router = APIRouter(prefix="", tags=["Type"])  
 
 @router.get("/")
 async def get_processing_types():

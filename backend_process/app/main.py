@@ -40,13 +40,13 @@ app.add_middleware(
 app.include_router(process_router)
 
 
-@app.get("/")
-async def root():
-    return {
-        "message": "Data Processing Backend API",
-        "docs": "/docs",
-        "health": "/health"
-    }
+# @app.get("/")
+# async def root():
+#     return {
+#         "message": "Data Processing Backend API",
+#         "docs": "/docs",
+#         "health": "/health"
+#     }
 
 
 if __name__ == "__main__":
