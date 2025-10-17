@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
 
     # MinIO
-    MINIO_ENDPOINT: str = "external-minio:9000"
+    MINIO_ENDPOINT: str = "minio-service.storage.svc.cluster.local:9000"
     MINIO_ACCESS_KEY: str = "minioadmin"
     MINIO_SECRET_KEY: str = "minioadmin"
     MINIO_BUCKET: str = "data-bucket"
