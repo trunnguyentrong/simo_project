@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: trungnt1205/backend-process:latest
+        image: trungnt1205/backend-process-mac:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8001
@@ -137,7 +137,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: trungnt1205/backend-type:latest
+        image: trungnt1205/backend-type-mac:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8001
@@ -176,7 +176,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: trungnt1205/backend-upload:latest
+        image: trungnt1205/backend-upload-mac:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8001
@@ -343,7 +343,16 @@ data:
       --data 'paths[]=/upload' \
       --data name=upload-route \
       --data strip_path=true
-    
+
+    # Configure frontend Service
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services \
+      --data name=frontend-service \
+      --data url='http://frontend-service.test-kong.svc.cluster.local:80'
+
+    curl -i -X POST http://kong-admin.test-kong.svc.cluster.local:8001/services/frontend-service/routes \
+      --data 'paths[]=/' \
+      --data name=frontend-route \
+      --data strip_path=false
 
     echo "Kong configuration complete!"
 
