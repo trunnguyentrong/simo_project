@@ -68,7 +68,7 @@ class MongoDBService:
             cursor = collection.find()
             data = await cursor.to_list(length=None)
             results[name] = pd.DataFrame(data)
-        logger.debug(results)
+        logger.info("Get data from mongodb Successfully !!!")
 
         return results
 

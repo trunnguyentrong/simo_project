@@ -147,8 +147,8 @@ def generate_corp_and_corp_acct(account_ids, num_corps=500):
 # ===============================================
 
 if __name__ == "__main__":
-    client = MongoClient("mongodb://root:password@localhost:27017/")
-    db = client["staging_db"]
+    client = MongoClient("mongodb://admin:password@localhost:27017/")
+    db = client["ods"]
 
     print("Generating fake data...")
     customers, customer_ids = generate_customers(1000)
@@ -157,10 +157,10 @@ if __name__ == "__main__":
     corps, corp_accts = generate_corp_and_corp_acct(account_ids, 400)
 
     print("Inserting into MongoDB...")
-    db.T24_T24CORE_CUSTOMER.insert_many(customers)
-    db.T24_T24CORE_ACCOUNT.insert_many(accounts)
-    db.DANH_SACH_API_23.insert_many(danh_sach)
-    db.CORP.insert_many(corps)
-    db.CORP_ACCT.insert_many(corp_accts)
+    # db.T24_T24CORE_CUSTOMER.insert_many(customers)
+    # db.T24_T24CORE_ACCOUNT.insert_many(accounts)
+    # db.EXCEL.insert_many(danh_sach)
+    # db.BIZ_CORP.insert_many(corps)
+    # db.BIZ_CORP_ACCT.insert_many(corp_accts)
 
     print("✅ Data insertion completed successfully!")

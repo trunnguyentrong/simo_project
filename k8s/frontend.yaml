@@ -116,7 +116,7 @@ data:
     <body>
         <div class="container">
             <header>
-                <h1>🚀 Data Processing Platform</h1>
+                <h1>Báo Cáo Ngân Hàng Nhà Nước - SIMO</h1>
                 <p class="subtitle">Upload, Process, and Analyze Your Excel Data</p>
             </header>
 
@@ -177,9 +177,9 @@ data:
                     <label for="processingType">Processing Type:</label>
                     <select id="processingType" class="form-control">
                         <option value="">Select processing type...</option>
-                        <option value="type1">Type 1 - Standard Processing</option>
-                        <option value="type2">Type 2 - Advanced Processing</option>
-                        <option value="type3">Type 3 - Custom Processing</option>
+                        <option value="type5">Thu thập thông tin số dư TKĐBTT cho dịch vụ Ví điện tử tại các TGTT</option>
+                        <option value="type6">Thu thập thông tin số dư TKĐBTT cho dịch vụ Ví điện tử tại các ngân hàng hợp tác</option>
+                        <option value="type7">Thu thập danh sách TKTT của tổ chức định kỳ </option>
                     </select>
                     <p class="help-text" id="typeDescription">Select a processing type to see details</p>
                 </div>

@@ -18,7 +18,7 @@ class ProcessingConfig:
 
     CONFIGS = {
         ProcessingType.TYPE5: {
-            "collections": ["users"], 
+            "collections": ["T24_T24CORE_ACCOUNT", "T24_T24CORE_CUSTOMER", "BIZ_CORP_ACCT", "BIZ_CORP"], 
         },
         # ProcessingType.INVENTORY: {
         #     "collection": "inventory_reference",
